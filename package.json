@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pkym/myNewNode.git"
+    "url": "git+https://github.com/pkym/nodeJs.git"
   },
   "keywords": [
     "node.js"
@@ -16,9 +16,9 @@
   "author": "ymkee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pkym/myNewNode/issues"
+    "url": "https://github.com/pkym/nodeJs/issues"
   },
-  "homepage": "https://github.com/pkym/myNewNode#readme",
+  "homepage": "https://github.com/pkym/nodeJs#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2"
