@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="KO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습입니다</title>
+</head>
+<body>
+    <h1 id="sound"></h1>
+    <input id="name" type="text">
+    <button onclick="logJSONData()">api요청</button>
+    <script>
+        async function logJSONData() {
+            const name =  document.getElementById('name').value;
+            const response = await fetch(`http://localhost:3000/sound/${name}`);
+            const jsonData = await response.json();
+            console.log(jsonData);
+            document.getElementById('sound').innerHTML=jsonData.sound;
+        }
+            
+            
+       
+    </script>
+</body>
+</html>
